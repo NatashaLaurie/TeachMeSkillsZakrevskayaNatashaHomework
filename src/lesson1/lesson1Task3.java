@@ -13,10 +13,9 @@ public class lesson1Task3 {
     public static void main(String[] args) {
         System.out.print("Enter number: ");
         int number = scan.nextInt();
-        if (number>0) number+=1;
-        else if (number<0) number-=2;
+        if (number > 0) number += 1;
+        else if (number < 0) number -= 2;
         else number = 10;
         System.out.println(number);
-
     }
 }

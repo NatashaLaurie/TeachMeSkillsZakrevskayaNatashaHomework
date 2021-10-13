@@ -12,16 +12,16 @@ import java.util.Scanner;
  * • и т.д.
  */
 public class lesson1Task7 {
-
     static Scanner scan = new Scanner(System.in);
 
     public static void main(String[] args) {
-        int a;
-        for (int i =0; i< 10; i++) {
-            a = (int) (Math.random() * 500);
-            printNumberOfProgrammers(a);
+        int randomInteger;
+        for (int i = 0; i < 10; i++) {
+            randomInteger = (int) (Math.random() * 500);
+            printNumberOfProgrammers(randomInteger);
         }
     }
+
     public static void printNumberOfProgrammers(int number) {
         System.out.print(number + " программист");
         switch (number % 10) {

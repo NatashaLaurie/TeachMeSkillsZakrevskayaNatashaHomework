@@ -11,21 +11,18 @@ import java.util.Scanner;
  * существует.
  */
 public class lesson1Task2 {
-
     static Scanner scan = new Scanner(System.in);
 
     public static void main(String[] args) {
-        int a, b, c;
+        int aSide, bSide, cSide;
         System.out.print("Enter the lengths of the sides of the triangle \na:");
-        a = scan.nextInt();
+        aSide = scan.nextInt();
         System.out.print("b:");
-        b = scan.nextInt();
+        bSide = scan.nextInt();
         System.out.print("c:");
-        c = scan.nextInt();
-
-        if (isTriangle(a, b, c)) System.out.print("Triangle exists!");
+        cSide = scan.nextInt();
+        if (isTriangle(aSide, bSide, cSide)) System.out.print("Triangle exists!");
         else System.out.print("Triangle DOESN'T exist!");
-
     }
 
     public static boolean isTriangle(int a, int b, int c) {
