@@ -1,6 +1,6 @@
 package lesson4.abstractClasses;
 
-public class LandTransport extends Transport {
+public abstract class LandTransport extends Transport {
     int numberOfWheels;
     double fuelConsumption;
 

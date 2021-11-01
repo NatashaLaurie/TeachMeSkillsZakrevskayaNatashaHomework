@@ -1,5 +1,6 @@
 package lesson4.transportClasses;
 
+
 import lesson4.abstractClasses.LandTransport;
 
 public class CargoLandTransport extends LandTransport {

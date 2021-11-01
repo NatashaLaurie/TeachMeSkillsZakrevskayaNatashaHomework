@@ -1,6 +1,6 @@
 package lesson4.abstractClasses;
 
-public class AirTransport extends Transport {
+public abstract class AirTransport extends Transport {
     double wingspan;
     int minRunwayLength;
 
